@@ -1,0 +1,89 @@
+body{
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color:rgba(242, 191, 94, 1);
+  padding: 20px;
+  text-align:center;
+  background-image: url('images/IMG_20220821_062153.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+h1,h2,h3{
+  font-family: "Playwrite GB S", cursive;
+  font-size: 30px;
+  font-weight: bold;
+  color:#592B02;
+}
+
+li{
+  display:inline;
+  padding:50;
+}
+
+#list-inline {
+  display:inline;
+  padding: 0 60px;
+  font-size: 40px;
+  text-align: center;
+  height: 100px;
+}
+
+a{
+  text-decoration:none;
+  color:rgb(12, 138, 10);
+  font-size:18px;
+  font-weight:bold;
+  transition:0.3s ease;
+  text-align:center;
+}
+
+.btn-brown {
+  padding: 5px;
+  background-color: #768EA6;
+  border-radius: 8px;
+  color: #7E5B21;
+}
+
+.btn-brown:hover{
+  background-color: #7E5B21;
+  color:#768EA6;
+}
+
+#profile-pic{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+}
+
+.card{
+  background-color:rgba(121, 113, 122, 0.7);
+  padding:25px;
+  width:900px;
+  margin:25px auto;
+  border-radius:4px;
+  border:1px solid #79717A;
+}
